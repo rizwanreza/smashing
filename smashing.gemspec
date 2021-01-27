@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
     s.add_dependency('sinatra', '~> 2.0.0')
   end
   s.add_dependency('sinatra-contrib', '~> 2.0.0')
-  s.add_dependency('thin', '~> 1.7.2')
+  s.add_dependency('thin')
   s.add_dependency('rufus-scheduler', '~> 3.6.0')
   s.add_dependency('thor', '~> 1.0.1')
   if RUBY_VERSION < "2.5.0"
